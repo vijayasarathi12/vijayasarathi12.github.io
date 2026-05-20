@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S.K. Vijaya Sarathi - Java Developer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 50px 30px;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        .content {
+            padding: 40px 30px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill-tag {
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+        .project {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            border-left: 4px solid #667eea;
+        }
+        .project h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .project-tech {
+            color: #667eea;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .project-link {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            transition: background 0.3s;
+        }
+        .project-link:hover {
+            background: #764ba2;
+        }
+        .contact {
+            text-align: center;
+            padding: 30px;
+            background: #f8f9fa;
+            border-radius: 0 0 15px 15px;
+        }
+        .contact h2 {
+            margin-bottom: 20px;
+            color: #667eea;
+        }
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+        .contact-links a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: color 0.3s;
+        }
+        .contact-links a:hover {
+            color: #764ba2;
+        }
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2em;
+            }
+            .content {
+                padding: 30px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>S.K. Vijaya Sarathi</h1>
+            <p>Java Backend Developer | Spring Boot Enthusiast</p>
+        </div>
+        
+        <div class="content">
+            <div class="section">
+                <h2>About Me</h2>
+                <p>Recent B.E. Computer Science graduate from Jansons Institute of Technology with a passion for backend development. Experienced in building REST APIs using Java and Spring Boot, with a strong foundation in object-oriented programming and database management. Actively seeking opportunities to contribute to impactful projects and grow as a Java developer.</p>
+            </div>
+            
+            <div class="section">
+                <h2>Technical Skills</h2>
+                <div class="skills">
+                    <span class="skill-tag">Java</span>
+                    <span class="skill-tag">Spring Boot</span>
+                    <span class="skill-tag">REST API</span>
+                    <span class="skill-tag">MySQL</span>
+                    <span class="skill-tag">JPA/Hibernate</span>
+                    <span class="skill-tag">Maven</span>
+                    <span class="skill-tag">Git/GitHub</span>
+                    <span class="skill-tag">Postman</span>
+                    <span class="skill-tag">OOP Concepts</span>
+                    <span class="skill-tag">Data Structures</span>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>Projects</h2>
+                
+                <div class="project">
+                    <h3>Employee Management REST API</h3>
+                    <p class="project-tech">Spring Boot • MySQL • JPA/Hibernate • Maven • REST API</p>
+                    <p>Developed a comprehensive RESTful API for managing employee records with full CRUD operations. Implemented 3-layer architecture (Entity, Repository, Controller) following MVC design pattern and Spring Boot best practices.</p>
+                    <ul style="margin: 15px 0 15px 20px;">
+                        <li>Built 5 REST endpoints (GET, POST, PUT, DELETE) handling JSON request/response</li>
+                        <li>Integrated MySQL database using JPA/Hibernate ORM for automated query generation</li>
+                        <li>Implemented data validation (unique email, auto-increment IDs)</li>
+                        <li>Tested all endpoints using Postman ensuring proper HTTP status codes</li>
+                    </ul>
+                    <a href="https://github.com/vijayasarathi12/employee-management-api" target="_blank" class="project-link">View on GitHub →</a>
+                </div>
+                
+            </div>
+            
+            <div class="section">
+                <h2>Education</h2>
+                <div class="project">
+                    <h3>B.E. Computer Science and Engineering</h3>
+                    <p><strong>Jansons Institute of Technology</strong> | 2022 - 2026</p>
+                    <p>Relevant Coursework: Data Structures, Object-Oriented Programming, Database Management Systems, Web Technologies</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="contact">
+            <h2>Let's Connect</h2>
+            <div class="contact-links">
+                <a href="https://github.com/vijayasarathi12" target="_blank">📁 GitHub</a>
+                <a href="https://www.linkedin.com/in/Vijaysarathi SK" target="_blank">💼 LinkedIn</a>
+                <a href="mailto:your.skvijayasarathi72@gmail.com">📧 Email</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
